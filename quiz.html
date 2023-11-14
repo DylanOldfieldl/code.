@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src ="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <nav class="nav">
+            <ul>
+                <li><a href="quiz.html">Quiz</a></li> 
+                <li><a href="gallery.html">Image Gallery</a></li> 
+                <li><a href="chess.code.html">Home Page</a></li>     
+            </ul>
+        </nav>  
+        <section>
+            <form 
+            name="quiz">
+            <fieldset>
+                <legend>
+                    What is your favourite colour?
+                </legend>
+                <input type="radio" name= "colour"  value="pink" id="pink">
+                <label for="pink"> Pink</label>
+                <input type="radio" name= "colour"  value="yellow" id="yellow">
+                <label for="yellow"> Yellow </label>
+                    <input type="radio" name= "colour"  value="green" id="green">
+                    <label for="green"> Green </label>
+                        <input type="radio" name= "colour"  value="black" id="black">
+                        <label for="black"> Black </label>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>
+                                What is your favourite animal?
+                            </legend>
+                            <input type="radio" name= "animal"  value="red-panda" id="red-panda">
+                            <label for="red-panda"> Red-panda</label>
+                            <input type="radio" name= "animal"  value="giraffe" id="giraffe">
+                            <label for="giraffe"> Giraffe </label>
+                                <input type="radio" name= "animal"  value="jaguar" id="jaguar">
+                                <label for="jaguar"> Jaguar </label>
+                                    <input type="radio" name= "animal"  value="gorilla" id="gorilla">
+                                    <label for="gorilla"> Gorilla </label>
+                                    </fieldset>
+                                    <fieldset>
+
+                                        <legend>
+                                            What is your favourite music genre?
+                                        </legend>
+                                        <input type="radio" name= "music"  value="pop" id="pop">
+                                        <label for="pop"> pop</label>
+                                        <input type="radio" name= "music"  value="metal" id="metal">
+                                        <label for="metal"> metal </label>
+                                            <input type="radio" name= "music"  value="rap" id="rap">
+                                            <label for="rap"> rap </label>
+                                                <input type="radio" name= "music"  value="rock" id="rock">
+                                                <label for="rock"> rock </label>
+                                                </fieldset>
+ <fieldset>
+                            <legend>
+                                What is your favourite thing to do in your spare time?
+                            </legend>
+                            <input type="radio" name= "hobby"  value="exercise" id="exercise">
+                            <label for="exercise"> exercise</label>
+                            <input type="radio" name= "hobby"  value="go for a walk" id="go for a walk">
+                            <label for="go for a walk"> go for a walk </label>
+                                <input type="radio" name= "hobby"  value="listen to music" id="listen to music">
+                                <label for="listen to music"> listen to music </label>
+                                    <input type="radio" name= "hobby"  value="read" id="read">
+                                    <label for="read"> read </label>
+                                    </fieldset>
+                                    <br>
+                                    <button type="button" onclick="checkAnswers()">submit</button>
+
+            </form>
+        </section>
+</main>
+</body>
+</html>
